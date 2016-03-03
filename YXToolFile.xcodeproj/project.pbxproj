@@ -14,6 +14,12 @@
 		E778F3551C881DFE0001F371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E778F3531C881DFE0001F371 /* LaunchScreen.storyboard */; };
 		E778F3601C881DFE0001F371 /* YXToolFileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E778F35F1C881DFE0001F371 /* YXToolFileTests.swift */; };
 		E778F36B1C881DFE0001F371 /* YXToolFileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E778F36A1C881DFE0001F371 /* YXToolFileUITests.swift */; };
+		E778F37F1C881F6E0001F371 /* AudioTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E778F3791C881F6E0001F371 /* AudioTool.swift */; };
+		E778F3801C881F6E0001F371 /* ButtonAsRightImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E778F37A1C881F6E0001F371 /* ButtonAsRightImage.swift */; };
+		E778F3821C881F6E0001F371 /* SegmentedVew.swift in Sources */ = {isa = PBXBuildFile; fileRef = E778F37C1C881F6E0001F371 /* SegmentedVew.swift */; };
+		E778F3841C881F6E0001F371 /* YXSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E778F37E1C881F6E0001F371 /* YXSearchBar.swift */; };
+		E778F3871C881FF00001F371 /* ToolFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E778F3851C881FF00001F371 /* ToolFile.swift */; };
+		E778F3881C881FF00001F371 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E778F3861C881FF00001F371 /* extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		E778F3661C881DFE0001F371 /* YXToolFileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXToolFileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E778F36A1C881DFE0001F371 /* YXToolFileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXToolFileUITests.swift; sourceTree = "<group>"; };
 		E778F36C1C881DFE0001F371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E778F3791C881F6E0001F371 /* AudioTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioTool.swift; sourceTree = "<group>"; };
+		E778F37A1C881F6E0001F371 /* ButtonAsRightImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonAsRightImage.swift; sourceTree = "<group>"; };
+		E778F37C1C881F6E0001F371 /* SegmentedVew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedVew.swift; sourceTree = "<group>"; };
+		E778F37E1C881F6E0001F371 /* YXSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXSearchBar.swift; sourceTree = "<group>"; };
+		E778F3851C881FF00001F371 /* ToolFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolFile.swift; sourceTree = "<group>"; };
+		E778F3861C881FF00001F371 /* extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,7 @@
 		E778F3491C881DFE0001F371 /* YXToolFile */ = {
 			isa = PBXGroup;
 			children = (
+				E778F3781C881EAB0001F371 /* toolFile */,
 				E778F34A1C881DFE0001F371 /* AppDelegate.swift */,
 				E778F34C1C881DFE0001F371 /* ViewController.swift */,
 				E778F34E1C881DFE0001F371 /* Main.storyboard */,
@@ -123,6 +136,19 @@
 				E778F36C1C881DFE0001F371 /* Info.plist */,
 			);
 			path = YXToolFileUITests;
+			sourceTree = "<group>";
+		};
+		E778F3781C881EAB0001F371 /* toolFile */ = {
+			isa = PBXGroup;
+			children = (
+				E778F3851C881FF00001F371 /* ToolFile.swift */,
+				E778F3861C881FF00001F371 /* extension.swift */,
+				E778F3791C881F6E0001F371 /* AudioTool.swift */,
+				E778F37A1C881F6E0001F371 /* ButtonAsRightImage.swift */,
+				E778F37C1C881F6E0001F371 /* SegmentedVew.swift */,
+				E778F37E1C881F6E0001F371 /* YXSearchBar.swift */,
+			);
+			name = toolFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E778F3871C881FF00001F371 /* ToolFile.swift in Sources */,
+				E778F3841C881F6E0001F371 /* YXSearchBar.swift in Sources */,
+				E778F3801C881F6E0001F371 /* ButtonAsRightImage.swift in Sources */,
+				E778F3821C881F6E0001F371 /* SegmentedVew.swift in Sources */,
 				E778F34D1C881DFE0001F371 /* ViewController.swift in Sources */,
 				E778F34B1C881DFE0001F371 /* AppDelegate.swift in Sources */,
+				E778F37F1C881F6E0001F371 /* AudioTool.swift in Sources */,
+				E778F3881C881FF00001F371 /* extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +431,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YXToolFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DDEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = yinqixing.YXToolFile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -410,6 +443,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YXToolFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DRELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = yinqixing.YXToolFile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -482,6 +516,7 @@
 				E778F3711C881DFE0001F371 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E778F3721C881DFE0001F371 /* Build configuration list for PBXNativeTarget "YXToolFileTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +525,7 @@
 				E778F3741C881DFE0001F371 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E778F3751C881DFE0001F371 /* Build configuration list for PBXNativeTarget "YXToolFileUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +534,7 @@
 				E778F3771C881DFE0001F371 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+         let rect = CGRect(x: 100, y: 100, width: 100, height: 100)
+          debugLog("wowowo\(rect)")
     }
 
     override func didReceiveMemoryWarning() {
