@@ -148,7 +148,7 @@
 				E778F37C1C881F6E0001F371 /* SegmentedVew.swift */,
 				E778F37E1C881F6E0001F371 /* YXSearchBar.swift */,
 			);
-			name = toolFile;
+			path = toolFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
